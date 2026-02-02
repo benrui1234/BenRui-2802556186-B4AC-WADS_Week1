@@ -16,3 +16,23 @@ What is a resource?
 The key abstraction of information in REST is a resource. Any information that we can name can be a resource. For example, a REST resource can be a document or image, a temporal service, a collection of other resources, or a non-virtual object (e.g., a person).
 
 The state of the resource at any particular time is known as the resource representation. The resource representations consist of the data, the metadata describing the data, and the hypermedia links that can help the clients transition to the next desired state.
+
+Example:
+{
+  "id": 123,
+  "title": "What is REST",
+  "content": "REST is an architectural style for building web services...",
+  "published_at": "2023-11-04T14:30:00Z",
+  "author": {
+    "id": 456,
+    "name": "John Doe",
+    "profile_url": "https://example.com/authors/456"
+  },
+  "comments": {
+    "count": 5,
+    "comments_url": "https://example.com/posts/123/comments"
+  },
+  "self": {
+    "link": "https://example.com/posts/123"
+  }
+}
