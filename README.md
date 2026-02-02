@@ -36,3 +36,7 @@ Example:
     "link": "https://example.com/posts/123"
   }
 }
+
+Resource methods
+
+Another important thing associated with REST is resource methods. These resource methods are used to perform the desired transition between two states of any resource.
