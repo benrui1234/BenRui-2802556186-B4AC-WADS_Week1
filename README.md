@@ -11,3 +11,4 @@ REST is not a protocol or a standard, it is an architectural style. During the d
 Like the other architectural styles, REST also has its guiding principles and constraints. These principles must be satisfied if a service interface is to be referred to as RESTful.
 
 A Web API (or Web Service) conforming to the REST architectural style is called a REST API (or RESTful API).
+REST and HTTP are not the same. 
